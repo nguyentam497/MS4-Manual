@@ -1558,7 +1558,7 @@ h1,
 h2,
 h3 {
     margin-top: 20px;
-    margin-bottom: 10px
+    margin-bottom: 0;
 }
 
 .h1 .small,
