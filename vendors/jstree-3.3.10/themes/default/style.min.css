@@ -13,9 +13,9 @@
 }
 
 .jstree-anchor {
-    display: inline-block;
+    /* display: inline-block; */
     color: black;
-    white-space: nowrap;
+    white-space: break-spaces;
     padding: 0 4px 0 1px;
     margin: 0;
     vertical-align: top
