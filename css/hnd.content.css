@@ -503,7 +503,6 @@ ol
 
 .main-content .Section-item .left .left-content p.note {
     padding-left: 30px;
-    padding-top: 10px;
     color: #ff0000;
 }
 
@@ -655,12 +654,44 @@ ol
     transition: opacity 0.3s ease-out;
 }
 
-.main-content .Section-item ul.Small-menu {
-    padding: 15px 0 0 15px;
+.main-content .Section-item-basic ul.Small-menu {
+    padding-left: 15px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.main-content .Section-item-basic ul.Small-menu li {
+    list-style-type: disc;
+    font-size: 20px;
+}
+
+.main-content .Section-item-basic .Section-content {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.main-content .Basic-content .Content-QA {
+    padding: 15px 30px 0 30px;
     margin-left: 20px;
 }
 
-.main-content .Section-item ul.Small-menu li {
-    list-style-type: disc;
+.main-content .Basic-content .Content-QA p {
+    font-size: 20px;
+}
+
+.main-content .Basic-content .Content-QA p>span {
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.main-content .Basic-content .Bottom-content {
+    margin-top: 50px;
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+
+.main-content .Basic-content .Bottom-content p {
+    text-align: center;
+    font-weight: bold;
     font-size: 20px;
 }
