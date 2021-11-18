@@ -476,12 +476,12 @@ ol
     line-height: 1.4;
 }
 
-.main-content #Introduction {
+.main-content .Intro-content {
     text-align: center;
 }
 
-.main-content #Introduction .logo {
-    margin-top: 200px;
+.main-content .Intro-content .Logo {
+    margin-top: 450px;
 }
 
 .main-content .Section-item .left {
@@ -685,12 +685,24 @@ ol
 }
 
 .main-content .Basic-content .Bottom-content {
-    margin-top: 50px;
-    padding: 50px 0 0 0;
+    margin: 50px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
 .main-content .Basic-content .Bottom-content p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-content .Intro-content .Intro,
+.main-content .Intro-content .Logo {
+    text-align: center;
+    padding: 50px;
+}
+
+.main-content .Intro-content .Intro p {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
