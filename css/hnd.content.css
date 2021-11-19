@@ -603,7 +603,7 @@ ol
 }
 
 .main-content .Basic-content .menu ol li:before {
-    content: "7"counters(li, " ") ". ";
+    content: "7"counters(li, "") ".";
     counter-increment: li -1;
     font-size: 18px;
     width: auto;
