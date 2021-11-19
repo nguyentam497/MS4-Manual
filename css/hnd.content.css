@@ -400,13 +400,12 @@ ol
 /* ========== Add Style ========== */
 
 .main-content {
-    padding: 0 50px 0 50px;
+    padding: 0 50px;
     margin-top: 50px;
 }
 
 .main-content .section {
-    margin-top: 30px;
-    padding: 50px 0 0 0;
+    padding: 50px 0;
 }
 
 .main-content .Basic-content .Section-title,
