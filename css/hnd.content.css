@@ -685,7 +685,7 @@ ol
 }
 
 .main-content .Basic-content .Bottom-content {
-    margin: 50px 0;
+    margin: 100px 0;
     padding: 60px 0;
     text-align: center;
 }
@@ -699,7 +699,7 @@ ol
 .main-content .Intro-content .Intro,
 .main-content .Intro-content .Logo {
     text-align: center;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .main-content .Intro-content .Intro p {
