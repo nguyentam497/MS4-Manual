@@ -598,10 +598,6 @@ ol
     padding-left: 0;
 }
 
-.main-content .Basic-content .menu ol li:first-child::before {
-    display: inherit;
-}
-
 .main-content .Basic-content .menu ol li:before {
     content: "7"counters(li, "") ".";
     counter-increment: li -1;
