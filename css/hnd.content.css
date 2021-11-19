@@ -567,6 +567,24 @@ ol
     max-width: 1200px;
 }
 
+.main-content .Section-item .right .right-content #zoomout .close {
+    float: right;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    filter: alpha(opacity=20);
+    opacity: 1;
+    padding: 30px;
+}
+
+.main-content .Section-item .right .right-content #zoomout .close:hover {
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: 1;
+}
+
 .main-content .Basic-content .Sub-title {
     padding-left: 15px;
 }
