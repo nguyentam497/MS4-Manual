@@ -564,6 +564,7 @@ ol
     width: auto !important;
     height: auto;
     cursor: pointer;
+    max-width: 1000px;
 }
 
 .main-content .Basic-content .Sub-title {
