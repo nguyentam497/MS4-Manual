@@ -2901,11 +2901,11 @@
     <script src="vendors/interactjs-1.9.22/interact.min.js"></script>
 
     <!-- HelpNDoc scripts -->
-    <script src="js/polyfill.object.min.js"></script>
-    <script src="_translations.js"></script>
-    <script src="js/hndsd.min.js"></script>
-    <script src="js/hndse.min.js"></script>
-    <script src="js/app.min.js"></script>
+    <script src="js/polyfill.object.min.js "></script>
+    <script src="_translations.js "></script>
+    <script src="js/hndsd.min.js "></script>
+    <script src="js/hndse.min.js "></script>
+    <script src="js/app.min.js "></script>
 
     <!-- Init script -->
     <script>
@@ -2928,24 +2928,24 @@
     <script>
         var zoomImg = function() {
             var clone = this.cloneNode();
-            clone.classList.remove("ClickToZoom");
-            var imgzoom = document.getElementById("zoomin");
-            imgzoom.innerHTML = "";
+            clone.classList.remove("ClickToZoom ");
+            var imgzoom = document.getElementById("zoomin ");
+            imgzoom.innerHTML = " ";
             imgzoom.appendChild(clone);
-            imgzoom = document.getElementById("zoomout");
-            imgzoom.classList.add("show");
+            imgzoom = document.getElementById("zoomout ");
+            imgzoom.classList.add("show ");
             var caption = clone.alt;
-            document.getElementById("caption").innerHTML = caption;
+            document.getElementById("caption ").innerHTML = caption;
         };
-        window.addEventListener("load", function() {
-            var images = document.getElementsByClassName("ClickToZoom");
+        window.addEventListener("load ", function() {
+            var images = document.getElementsByClassName("ClickToZoom ");
             if (images.length > 0) {
                 for (var img of images) {
-                    img.addEventListener("click", zoomImg);
+                    img.addEventListener("click ", zoomImg);
                 }
             }
-            document.getElementById("zoomout").addEventListener("click", function() {
-                this.classList.remove("show");
+            document.getElementById("zoomout ").addEventListener("click ", function() {
+                this.classList.remove("show ");
             })
         });
     </script>
