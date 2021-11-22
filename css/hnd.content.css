@@ -526,6 +526,7 @@ ol
 
 .main-content .Section-item .right .right-content .ClickToZoom {
     cursor: zoom-in;
+    border: 1px solid;
     transition: opacity 0.3s ease-out;
     width: auto;
 }
@@ -564,7 +565,7 @@ ol
     width: auto !important;
     height: auto;
     cursor: pointer;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .main-content .Section-item .right .right-content #zoomout .close {
