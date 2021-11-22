@@ -554,18 +554,26 @@ ol
     opacity: 1;
 }
 
-.main-content .Section-item .right .right-content #zoomin {
+.main-content .Section-item .right .right-content .zoom-content {
     text-align: center;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
+.main-content .Section-item .right .right-content #caption {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1;
+    color: #fff;
+    cursor: auto;
+}
+
 .main-content .Section-item .right .right-content #zoomin img {
     width: auto !important;
     height: auto;
     cursor: pointer;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .main-content .Section-item .right .right-content #zoomout .close {
