@@ -569,11 +569,17 @@ ol
     cursor: auto;
 }
 
+.main-content .Section-item .right .right-content #zoomin {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .main-content .Section-item .right .right-content #zoomin img {
     width: auto !important;
     height: auto;
     cursor: pointer;
-    max-width: 1200px;
+    max-width: 1000px;
+    object-fit: cover;
 }
 
 .main-content .Section-item .right .right-content #zoomout .close {
@@ -582,7 +588,6 @@ ol
     font-weight: 700;
     line-height: 1;
     color: #fff;
-    filter: alpha(opacity=20);
     opacity: 1;
     padding: 30px;
 }
