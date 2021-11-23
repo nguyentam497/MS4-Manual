@@ -570,7 +570,7 @@ ol
 }
 
 .main-content .Section-item .right .right-content #zoomout .zoom-content #zoomin {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -578,7 +578,7 @@ ol
     width: auto !important;
     height: auto;
     cursor: pointer;
-    max-width: 1000px;
+    max-width: 100%;
     object-fit: cover;
 }
 
