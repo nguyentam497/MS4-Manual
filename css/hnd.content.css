@@ -572,14 +572,18 @@ ol
 .main-content .Section-item .right .right-content #zoomout .zoom-content #zoomin {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .main-content .Section-item .right .right-content #zoomout .zoom-content #zoomin img {
     width: auto !important;
     height: auto;
     cursor: pointer;
-    max-width: 100%;
+    max-width: 1000px;
     object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .main-content .Section-item .right .right-content #zoomout .close {
