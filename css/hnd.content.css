@@ -579,7 +579,7 @@ ol
     width: auto !important;
     height: auto;
     cursor: pointer;
-    max-width: 1000px;
+    max-width: 100%;
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: center center;
