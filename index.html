@@ -333,7 +333,7 @@
                                                 <p class="text"><span class="rvts17">［通知メール］</span></p>
                                                 <div id="zoomout">
                                                     <span class="close">&times;</span>
-                                                    <div class="zoom-content">
+                                                    <div id="zoom-content">
                                                         <div id="zoomin"></div>
                                                         <div id="caption"></div>
                                                     </div>
@@ -2948,7 +2948,24 @@
                 this.classList.remove("show");
             })
         });
+
+        // const imgzoom = document.getElementById("zoomin");
+        // const img = document.querySelector("img");
+        // imgzoom.addEventListener("mousemove", (e) => {
+        //     const x = e.clientX - e.target.offsetLeft;
+        //     const y = e.clientY - e.target.offsetTop;
+
+        //     console.log(x, y);
+
+        //     img.style.transformOrigin = '${x}px ${y}px';
+        //     img.style.transform = "scale(2)"
+        // })
+        // imgzoom.addEventListener("mouseleave", () => {
+        //     img.style.transformOrigin = "center";
+        //     img.style.transform = "scale(1)";
+        // })
     </script>
+
 </body>
 
 </html>
