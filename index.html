@@ -2968,12 +2968,12 @@
 
     <script>
         $(document).ready(function() {
-            $("ul.jstree-children li .jstree-ocl:before").click(function() {
-                $("ul.jstree-children li").removeClass("jstree-open");
-                $("ul.jstree-children li").addClass("jstree-closed");
+            $("ul.jstree-container-ul.jstree-children li ul.jstree-children .jstree-ocl:before").click(function() {
+                $("ul.jstree-container-ul.jstree-children li").removeClass("jstree-open");
+                $("ul.jstree-container-ul.jstree-children li").addClass("jstree-closed");
                 $(this).removeClass("jstree-close");
             }, function() {
-                $("ul.jstree-children li").removeClass("jstree-closed");
+                $("ul.jstree-container-ul.jstree-children li").removeClass("jstree-closed");
             });
         });
     </script>
