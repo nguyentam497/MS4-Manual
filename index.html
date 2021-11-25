@@ -2967,12 +2967,15 @@
     </script>
 
     <script>
-        $(function() {
-            $(".jstree-ocl:before").click(function() {
-                $(li).removeClass("jstree-open");
-                $(li).addClass("jstree-closed")
-            })
-        })
+        $(document).ready(function() {
+            $("ul.jstree-children li .jstree-ocl:before").click(function() {
+                $("ul.jstree-children li").removeClass("jstree-open");
+                $("ul.jstree-children li").addClass("jstree-closed");
+                $(this).removeClass("jstree-close");
+            }, function() {
+                $("ul.jstree-children li").removeClass("jstree-closed");
+            });
+        });
     </script>
 
 </body>
