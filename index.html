@@ -2966,6 +2966,15 @@
         // })
     </script>
 
+    <script>
+        $(function() {
+            $(".jstree-ocl:before").click(function() {
+                $(li).removeClass("jstree-open");
+                $(li).addClass("jstree-closed")
+            })
+        })
+    </script>
+
 </body>
 
 </html>
