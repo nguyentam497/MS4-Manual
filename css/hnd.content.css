@@ -572,14 +572,12 @@
     .main-content .Section-item .right .right-content #zoomout #zoom-content #zoomin img {
         width: auto !important;
         height: auto;
-        max-width: 100%;
         cursor: pointer;
         object-fit: cover;
         background-position: center;
         background-size: cover;
         transition: transform ease 0.3s;
     }
-    /* .main-content .Section-item .right .right-content #zoomout #zoom-content #zoomin:hover img {} */
     
     .main-content .Section-item .right .right-content #zoomout .close {
         float: right;
