@@ -2945,14 +2945,13 @@
 
     <!-- HelpNDoc scripts -->
     <script src="js/polyfill.object.min.js "></script>
-    <script src="_translations.js "></script>
     <script src="js/hndsd.min.js "></script>
     <script src="js/hndse.min.js "></script>
     <script src="js/app.min.js "></script>
 
     <!-- Init script -->
     <script>
-        function hnd_tam(a) {
+        function hnd_ut(a) {
             a.TRANSLATIONS['Search term too short'] = "Search term too short";
             a.TRANSLATIONS['No results'] = "No results";
             a.TRANSLATIONS['Please enter more characters'] = "Please enter more characters";
@@ -2968,7 +2967,7 @@
                 searchEngineMinChars: 3
             });
             // Update translations
-            hnd_tam(app);
+            hnd_ut(app);
             // Instanciate imageMapResizer
             imageMapResize();
             // Custom JS
