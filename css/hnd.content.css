@@ -395,6 +395,7 @@
     
     .main-content {
         padding: 0 50px;
+        margin-top: 0;
     }
     
     .main-content .section {
