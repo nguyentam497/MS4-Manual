@@ -2972,12 +2972,44 @@
         });
     </script>
 
+    <script>
+        var zoomImg = function() {
+            var clone = this.cloneNode();
+            clone.classList.remove("ClickToZoom");
+            var imgzoom = document.getElementById("zoomin");
+            imgzoom.innerHTML = "";
+            imgzoom.appendChild(clone);
+            imgzoom = document.getElementById("zoomout");
+            imgzoom.classList.add("show");
+            var caption = clone.alt;
+            document.getElementById("caption").innerHTML = caption;
+        };
+        window.addEventListener("load", function() {
+            var images = document.getElementsByClassName("ClickToZoom");
+            if (images.length > 0) {
+                for (var img of images) {
+                    img.addEventListener("click", zoomImg);
+                }
+            }
+            document.getElementById("zoomout").addEventListener("click", function() {
+                this.classList.remove("show");
+            })
+        });
 
-    <script src="js/clicktozoom.js"></script>
-
-    // const imgzoom = document.getElementById("zoomin"); // const img = document.querySelector("img"); // imgzoom.addEventListener("mousemove", (e) => { // const x = e.clientX - e.target.offsetLeft; // const y = e.clientY - e.target.offsetTop; // console.log(x,
-    y); // img.style.transformOrigin = '${x}px ${y}px'; // img.style.transform = "scale(2)" // }) // imgzoom.addEventListener("mouseleave", () => { // img.style.transformOrigin = "center"; // img.style.transform = "scale(1)"; // })
-
+        // const imgzoom = document.getElementById("zoomin");
+        // const img = document.querySelector("img");
+        // imgzoom.addEventListener("mousemove", (e) => {
+        //     const x = e.clientX - e.target.offsetLeft;
+        //     const y = e.clientY - e.target.offsetTop;
+        //     console.log(x, y);
+        //     img.style.transformOrigin = '${x}px ${y}px';
+        //     img.style.transform = "scale(2)"
+        // })
+        // imgzoom.addEventListener("mouseleave", () => {
+        //     img.style.transformOrigin = "center";
+        //     img.style.transform = "scale(1)";
+        // })
+    </script>
 
 </body>
 
