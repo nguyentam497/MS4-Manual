@@ -123,34 +123,34 @@
                         </li>
                         <li role="presentation" aria-selected="false" aria-level="1" aria-labelledby="j1_4_anchor" aria-expanded="true" id="j1_4" class="jstree-node jstree-open">
                             <i class="jstree-icon jstree-ocl" role="presentation"></i>
-                            <a class="jstree-anchor" href="#f-3.1" tabindex="-1" role="treeitem" aria-selected="false" aria-level="1" aria-expanded="true" id="j1_4_anchor">
+                            <a class="jstree-anchor" href="#f-3-1" tabindex="-1" role="treeitem" aria-selected="false" aria-level="1" aria-expanded="true" id="j1_4_anchor">
                                 <i class="jstree-icon jstree-themeicon icon-default jstree-themeicon-custom" role="presentation"></i>管理画面の機能とメイン画面</a>
                             <ul role="group" class="jstree-children">
                                 <li role="presentation" aria-selected="false" aria-level="2" aria-labelledby="j1_5_anchor" id="j1_5" class="jstree-node jstree-leaf">
                                     <i class="jstree-icon jstree-ocl" role="presentation"></i>
-                                    <a class="jstree-anchor" href="#f-3.1" tabindex="-1" role="treeitem" aria-selected="false" aria-level="2" id="j1_5_anchor">
+                                    <a class="jstree-anchor" href="#f-3-1" tabindex="-1" role="treeitem" aria-selected="false" aria-level="2" id="j1_5_anchor">
                                         <i class="jstree-icon jstree-themeicon icon-default jstree-themeicon-custom" role="presentation"></i>管理画面の機能</a>
                                 </li>
                                 <li role="presentation" aria-selected="false" aria-level="2" aria-labelledby="j1_6_anchor" id="j1_6" class="jstree-node jstree-leaf jstree-last">
                                     <i class="jstree-icon jstree-ocl" role="presentation"></i>
-                                    <a class="jstree-anchor" href="#f-3.2" tabindex="-1" role="treeitem" aria-selected="false" aria-level="2" id="j1_6_anchor">
+                                    <a class="jstree-anchor" href="#f-3-2" tabindex="-1" role="treeitem" aria-selected="false" aria-level="2" id="j1_6_anchor">
                                         <i class="jstree-icon jstree-themeicon icon-default jstree-themeicon-custom" role="presentation"></i>メイン画面について</a>
                                 </li>
                             </ul>
                         </li>
                         <li role="presentation" aria-selected="false" aria-level="1" aria-labelledby="j1_7_anchor" aria-expanded="true" id="j1_7" class="jstree-node jstree-open">
                             <i class="jstree-icon jstree-ocl" role="presentation"></i>
-                            <a class="jstree-anchor" href="#f-4.1" tabindex="-1" role="treeitem" aria-selected="false" aria-level="1" aria-expanded="true" id="j1_7_anchor">
+                            <a class="jstree-anchor" href="#f-4-1" tabindex="-1" role="treeitem" aria-selected="false" aria-level="1" aria-expanded="true" id="j1_7_anchor">
                                 <i class="jstree-icon jstree-themeicon icon-default jstree-themeicon-custom" role="presentation"></i>月次レポート確認</a>
                             <ul role="group" class="jstree-children">
                                 <li role="presentation" aria-selected="false" aria-level="2" aria-labelledby="j1_8_anchor" id="j1_8" class="jstree-node jstree-leaf">
                                     <i class="jstree-icon jstree-ocl" role="presentation"></i>
-                                    <a class="jstree-anchor" href="#f-4.1" tabindex="-1" role="treeitem" aria-selected="false" aria-level="2" id="j1_8_anchor">
+                                    <a class="jstree-anchor" href="#f-4-1" tabindex="-1" role="treeitem" aria-selected="false" aria-level="2" id="j1_8_anchor">
                                         <i class="jstree-icon jstree-themeicon icon-default jstree-themeicon-custom" role="presentation"></i>月次パフォーマンスレポート確認</a>
                                 </li>
                                 <li role="presentation" aria-selected="false" aria-level="2" aria-labelledby="j1_9_anchor" id="j1_9" class="jstree-node jstree-leaf jstree-last">
                                     <i class="jstree-icon jstree-ocl" role="presentation"></i>
-                                    <a class="jstree-anchor" href="#f-4.2" tabindex="-1" role="treeitem" aria-selected="false" aria-level="2" id="j1_9_anchor">
+                                    <a class="jstree-anchor" href="#f-4-2" tabindex="-1" role="treeitem" aria-selected="false" aria-level="2" id="j1_9_anchor">
                                         <i class="jstree-icon jstree-themeicon icon-default jstree-themeicon-custom" role="presentation"></i>月次コンタクトレポート確認</a>
                                 </li>
                             </ul>
@@ -2960,22 +2960,21 @@
             a.TRANSLATIONS['Related topics...'] = "Related topics...";
             a.TRANSLATIONS['Loading...'] = "Loading...";
             a.TRANSLATIONS['Close'] = "Close";
-
-            $(function() {
-                // Create the app
-                var app = new Hnd.App({
-                    searchEngineMinChars: 3
-                });
-                // Update translations
-                hnd_ut(app);
-                // Instanciate imageMapResizer
-                imageMapResize();
-                // Custom JS
-
-                // Boot the app
-                app.Boot();
-            });
         }
+        $(function() {
+            // Create the app
+            var app = new Hnd.App({
+                searchEngineMinChars: 3
+            });
+            // Update translations
+            hnd_ut(app);
+            // Instanciate imageMapResizer
+            imageMapResize();
+            // Custom JS
+
+            // Boot the app
+            app.Boot();
+        });
     </script>
 
     <script>
