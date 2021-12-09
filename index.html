@@ -3110,14 +3110,6 @@
     <!-- Splitter -->
     <div id="hnd-splitter" style="left: 350px"></div>
 
-
-    <!-- HelpNDoc scripts -->
-    <script src="js/polyfill.object.min.js "></script>
-    <script src="translations.js"></script>
-    <script src="js/hndsd.min.js "></script>
-    <script src="js/hndse.min.js "></script>
-    <script src="js/app.min.js"></script>
-
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"></script>
@@ -3129,9 +3121,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/jstree.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.10.11/interact.min.js"></script>
 
+    <!-- HelpNDoc scripts -->
+    <script src="js/polyfill.object.min.js "></script>
+    <script src="translations.js"></script>
+    <script src="js/hndsd.min.js "></script>
+    <script src="js/hndse.min.js "></script>
+    <script src="js/app.min.js"></script>
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <!-- Init script -->
     <script>
+        $(document).ready(function() {
+            $('.ClickToZoom').magnificPopup({
+                type: 'image',
+                removalDelay: 200,
+                fixedContentPos: false
+            });
+        });
         $(function() {
             // Create the app
             var app = new Hnd.App({
@@ -3140,23 +3147,12 @@
             // Update translations
             hnd_ut(app);
             // Instanciate imageMapResizer
-
+            imageMapResize();
             // Custom JS
 
             // Boot the app
             app.Boot();
         });
-    </script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <script>
-        if ($('.ClickToZoom').length > 0) {
-            $('.ClickToZoom').magnificPopup({
-                type: 'image',
-                removalDelay: 200,
-                fixedContentPos: false
-            });
-        }
     </script>
 </body>
 
