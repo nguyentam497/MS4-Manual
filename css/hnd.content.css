@@ -519,82 +519,32 @@
     
     .main-content .Section-item .right .right-content .ClickToZoom {
         cursor: zoom-in;
-        border: 1px solid;
+        /* border: 1px solid; */
         transition: opacity 0.3s ease-out;
-        width: auto;
     }
     
     .main-content .Section-item .right .right-content .ClickToZoom:hover {
         opacity: 0.8;
     }
     
-    .main-content .Section-item .right .right-content #zoomout {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.8);
-        z-index: 999;
-        visibility: hidden;
-        opacity: 0;
-        transition: all ease 0.5s;
-        cursor: zoom-out;
+    .mfp-content .mfp-figure img.mfp-img {
+        padding: 0;
     }
     
-    .main-content .Section-item .right .right-content #zoomout.show {
-        visibility: visible;
-        opacity: 1;
+    .mfp-content .mfp-figure .mfp-bottom-bar {
+        left: 0px !important;
+        bottom: -28px !important;
+        top: auto;
     }
     
-    .main-content .Section-item .right .right-content #zoomout #zoom-content {
-        text-align: center;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        justify-content: center;
+    .mfp-content .mfp-figure .mfp-bottom-bar .mfp-title {
+        margin-top: 10px;
     }
     
-    .main-content .Section-item .right .right-content #zoomout #zoom-content #caption {
-        text-align: center;
-        font-size: 30px;
-        line-height: 1;
-        color: #fff;
-        cursor: auto;
-        margin-top: 20px;
-    }
-    
-    .main-content .Section-item .right .right-content #zoomout #zoom-content #zoomin {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    
-    .main-content .Section-item .right .right-content #zoomout #zoom-content #zoomin img {
-        width: auto !important;
-        height: auto;
-        cursor: pointer;
-        object-fit: cover;
-        background-position: center;
-        background-size: cover;
-        transition: transform ease 0.3s;
-    }
-    
-    .main-content .Section-item .right .right-content #zoomout .close {
-        text-align: right;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 1;
-        color: #fff;
-        opacity: 1;
-        margin: 30px;
-    }
-    
-    .main-content .Section-item .right .right-content #zoomout .close:hover {
-        text-decoration: none;
-        cursor: pointer;
-        filter: alpha(opacity=50);
-        opacity: 1;
+    .mfp-content .mfp-figure .mfp-close {
+        top: -40px;
+        right: -5px;
+        padding-right: 15px;
     }
     
     .main-content .Basic-content .Sub-title {
