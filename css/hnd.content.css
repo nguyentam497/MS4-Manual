@@ -513,13 +513,16 @@
         padding: 0 50px;
     }
     
+    .main-content .Section-item .right .right-content img {
+        border: 1px solid #000000;
+    }
+    
     .main-content .Section-item .right .right-content .right-item {
         padding-bottom: 20px;
     }
     
     .main-content .Section-item .right .right-content .ClickToZoom {
         cursor: zoom-in;
-        /* border: 1px solid; */
         transition: opacity 0.3s ease-out;
     }
     
@@ -528,7 +531,7 @@
     }
     
     .mfp-content .mfp-figure img.mfp-img {
-        padding: 0;
+        max-width: 1200px;
     }
     
     .mfp-content .mfp-figure .mfp-bottom-bar {
